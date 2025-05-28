@@ -1,0 +1,61 @@
+{
+  "name": "supply-chain-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "13.5.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "bootstrap": "5.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.10.0",
+    "lucide-react": "^0.488.0",
+    "qrcode": "^1.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-router-dom": "6.11.1",
+    "react-scripts": "5.0.1",
+    "tailwind-merge": "^3.2.0",
+    "tailwind-variants": "^1.0.0",
+    "tw-animate-css": "^1.2.5",
+    "web-vitals": "2.1.4",
+    "web3": "1.10.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "postcss src/tailwind.css -o dist/styles.css",
+    "test": "react-app-rewired test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss-cli": "^11.0.1",
+    "react-app-rewired": "2.2.1",
+    "stream-browserify": "3.0.0"
+  }
+}
